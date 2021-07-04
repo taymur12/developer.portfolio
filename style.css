@@ -3,7 +3,8 @@ body{
     margin: 0;
 }
 
-.full-section{
+/* first section */
+.first-section{
     background-image: url(images/top-banner.png);
     background-repeat: no-repeat;
 }
@@ -33,6 +34,7 @@ section{
 }
 .descrp{
     text-align: justify;
+    color: dimgray;
 }
 
 .hire-btn{
@@ -51,5 +53,56 @@ section{
     -ms-border-radius: 5px;
     -o-border-radius: 5px;
     background-image: linear-gradient(orange, tomato);
+}
+
+
+/* Second section */
+
+.second-sec{
+    margin-top: 100px;
+    background-image: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+
+
+}
+.dream-sec{
+    width: 50%;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+.sec-para{
+    text-align: justify;
+    color: dimgray;
+}
+.title-dream{
+    text-transform: capitalize;
+    font-size: 30px;
+
+}
+
+.short-note{
+    text-transform: capitalize;
+}
+
+.dream-sec img{
+    width: 85%;
+}
+
+.dwnld-rsm{
+    padding: 10px 40px;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    background-image: linear-gradient(orange, tomato);
+    text-decoration: none;
+    color: wheat;
+    
+}
+.dwld-btn{
+    margin-top: 40px;
 }
 
