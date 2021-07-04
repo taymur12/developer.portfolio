@@ -108,6 +108,7 @@ section{
 
 .db{
     margin-top: 130px;
+    margin-left: 5%;
     
 }
 .for-test{
@@ -160,4 +161,10 @@ small{
     background-repeat: no-repeat;
     background-position-y:80px ;
     
+}
+.last-title{
+    color: orange;
+}
+.last-para{
+    text-align: justify;
 }
